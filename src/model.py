@@ -1,4 +1,4 @@
-from dfa import Automata
+from ap_experiment.src.dfa import Automata
 class Layer():
     def __init__(self, automata:Automata = None,
                 autobuild_buffer:int = None,
